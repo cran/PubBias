@@ -1,0 +1,35 @@
+\name{expected_events}
+\alias{expected_events}
+\title{calculate the number of expected events from a study included in a meta-analysis assuming summary effect estimate (OR_hat) is true (not for end user).}
+\usage{
+  expected_events(vec_r_events_control,
+    vec_n_sample_size_control, vec_n_sample_size_treated,
+    OR_hat, n, alpha)
+}
+\arguments{
+  \item{vec_r_events_control}{an ordered vector of number
+  of events in the untreated group of constituent studies
+  from a meta-analysis.}
+
+  \item{vec_n_sample_size_control}{an ordered vector of the
+  number of participants in the untreated group.}
+
+  \item{vec_n_sample_size_treated}{an ordered vector of the
+  number of participants in the treated group.}
+
+  \item{alpha}{Type-1 error rate.}
+
+  \item{n}{Number of iterations used to generate
+  constituent study power; suggest use 10,000.}
+
+  \item{OR_hat}{Summary odds ratio from meta-analysis}
+}
+\value{
+  Expected number of events at given alpha level.
+}
+\description{
+  calculate the number of expected events from a study
+  included in a meta-analysis assuming summary effect
+  estimate (OR_hat) is true (not for end user).
+}
+

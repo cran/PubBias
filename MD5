@@ -1,0 +1,12 @@
+4b5b488ca178e2da4ac0ae5426c65d9f *DESCRIPTION
+a54c6a05006faeb66ed6e2e19c6fdef3 *NAMESPACE
+fa09c3fac98ae5df53113dc71a9f0d99 *R/process.R
+56846668d225b7ec27b2bd67a707043e *data/BMort.rda
+e64ab7fdf7f4a512c5f784a3fb836b92 *man/BMort.Rd
+bacb816125ee626ff26b0f151c7b125a *man/ChisqTest_expect.Rd
+5baaa8d7e881a9c3790a343ddec352b1 *man/expected_events.Rd
+9b7f592a59b58ab3be0fb4d20fc1ee4f *man/plot_chase_observed_expected.Rd
+a8c8a886554923ba148b6f03a514f0d7 *man/test.n.Rd
+c5c9511a4090c995dcdc1e3808c14c44 *man/test.n.treated.Rd
+674afdcecce5043831821949e38d9217 *man/test.one.treated.Rd
+6aa1f0930bacc5876d9fffb3386431df *man/test_one.Rd
